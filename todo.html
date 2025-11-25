@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Media Bias Monitor - TODO List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      max-width: 900px;
+    }
+    h1, h2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    .section {
+      margin-bottom: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Media Bias Monitor - Project TODO</h1>
+<p>This page tracks the development progress for the Media Bias Monitor project. You can check off tasks as you complete them. Checkboxes do not persist on reload unless you want me to add localStorage support.</p>
+
+<div class="section">
+  <h2>1. Repository Setup</h2>
+  <ul>
+    <li><input type="checkbox"> Create the <strong>media-bias-monitor</strong> repository on GitHub</li>
+    <li><input type="checkbox"> Clone the repo to ~/Documents/GitHub</li>
+    <li><input type="checkbox"> Create project folders:
+      <ul>
+        <li><input type="checkbox"> /frontend</li>
+        <li><input type="checkbox"> /scripts</li>
+        <li><input type="checkbox"> /data</li>
+        <li><input type="checkbox"> /docs</li>
+      </ul>
+    </li>
+    <li><input type="checkbox"> Add README.md</li>
+    <li><input type="checkbox"> Add LICENSE file</li>
+    <li><input type="checkbox"> Commit and push initial repo structure</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>2. Cursor & Local Development Setup</h2>
+  <ul>
+    <li><input type="checkbox"> Verify SSH connection to GitHub</li>
+    <li><input type="checkbox"> Open the repo folder inside Cursor</li>
+    <li><input type="checkbox"> Test pushing and pulling changes</li>
+    <li><input type="checkbox"> Configure API key usage for future scripts</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>3. Front-End Dashboard Foundation</h2>
+  <ul>
+    <li><input type="checkbox"> Create /frontend/index.html</li>
+    <li><input type="checkbox"> Add header, navigation, and layout placeholders</li>
+    <li><input type="checkbox"> Link dashboard from techzeph.github.io</li>
+    <li><input type="checkbox"> Add JSON-fetching logic for /data/*.json</li>
+    <li><input type="checkbox"> Add placeholder charts or static sample values</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>4. Bias Analysis Framework (Planning)</h2>
+  <ul>
+    <li><input type="checkbox"> Define scoring metrics:
+      <ul>
+        <li><input type="checkbox"> Sentiment</li>
+        <li><input type="checkbox"> Emotional tone</li>
+        <li><input type="checkbox"> Keyword intensity</li>
+        <li><input type="checkbox"> Outlet lean rating</li>
+        <li><input type="checkbox"> Bot-likelihood score</li>
+      </ul>
+    </li>
+    <li><input type="checkbox"> Document scoring rules in /docs/methodology.md</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>5. Article Ingestion System</h2>
+  <ul>
+    <li><input type="checkbox"> Create /scripts/article_ingest.py</li>
+    <li><input type="checkbox"> Add RSS feed parsing</li>
+    <li><input type="checkbox"> Save output to /data/articles.json</li>
+    <li><input type="checkbox"> Test manual ingestion</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>6. Bias + Sentiment Analysis</h2>
+  <ul>
+    <li><input type="checkbox"> Integrate NLP scoring (OpenAI, Claude, or local)</li>
+    <li><input type="checkbox"> Generate:
+      <ul>
+        <li><input type="checkbox"> sentiment_score</li>
+        <li><input type="checkbox"> framing_score</li>
+        <li><input type="checkbox"> bias_lean_estimate</li>
+      </ul>
+    </li>
+    <li><input type="checkbox"> Save results to /data/article_scores.json</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>7. Comment Analysis</h2>
+  <ul>

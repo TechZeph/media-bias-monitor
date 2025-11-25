@@ -66,7 +66,7 @@
   <li>Packaging it into commercial offerings</li>
 </ul>
 
-<p>A commercial licence is required for any commercial use. See the LICENSE file for details.</p>
+<p>A commercial licence is required for any commercial use. See the <a href="https://github.com/TechZeph/media-bias-monitor/blob/main/LICENSE.md">LICENSE file</a> for details.</p>
 
 <hr>
 
@@ -135,5 +135,5 @@ Contact the project owner for details.</p>
 <hr>
 
 <h2>License</h2>
-<p>This project is licensed under the <strong>PolyForm Noncommercial License 1.0.0</strong>.  
-See the LICENSE file for all legal terms.</p>
+<p>This project is licensed under the <strong>PolyForm Noncommercial License 1.0.0</strong>.
+See the <a href="https://github.com/TechZeph/media-bias-monitor/blob/main/LICENSE.md">LICENSE file</a> for all legal terms.</p>
