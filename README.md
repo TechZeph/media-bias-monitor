@@ -137,3 +137,6 @@ Contact the project owner for details.</p>
 <h2>License</h2>
 <p>This project is licensed under the <strong>PolyForm Noncommercial License 1.0.0</strong>.
 See the <a href="https://github.com/TechZeph/media-bias-monitor/blob/main/LICENSE.md">LICENSE file</a> for all legal terms.</p>
+
+ 
+
