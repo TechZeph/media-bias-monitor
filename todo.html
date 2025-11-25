@@ -155,3 +155,67 @@
 <div class="section">
   <h2>7. Comment Analysis</h2>
   <ul>
+    <li><input type="checkbox"> Integrate Reddit API</li>
+    <li><input type="checkbox"> Integrate YouTube API</li>
+    <li><input type="checkbox"> Save comments to /data/comments.json</li>
+    <li><input type="checkbox"> Add bot scoring module</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>8. Dashboard Data Integration</h2>
+  <ul>
+    <li><input type="checkbox"> Connect dashboard to /data/*.json</li>
+    <li><input type="checkbox"> Build visualisations:
+      <ul>
+        <li><input type="checkbox"> Bias Index chart</li>
+        <li><input type="checkbox"> Sentiment-over-time graph</li>
+        <li><input type="checkbox"> Bot Influence indicator</li>
+        <li><input type="checkbox"> Article comparison table</li>
+      </ul>
+    </li>
+    <li><input type="checkbox"> Add filter controls</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>9. Automated Builds (Later Stage)</h2>
+  <ul>
+    <li><input type="checkbox"> Add GitHub Actions workflow</li>
+    <li><input type="checkbox"> Automate ingestion + scoring</li>
+    <li><input type="checkbox"> Auto-generate JSON output</li>
+    <li><input type="checkbox"> Auto-deploy to GitHub Pages</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>10. Website Integration</h2>
+  <ul>
+    <li><input type="checkbox"> Add new section on techzeph.github.io</li>
+    <li><input type="checkbox"> Create a dedicated landing page</li>
+    <li><input type="checkbox"> Add dashboard link under your domain</li>
+    <li><input type="checkbox"> Improve styling and layout</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>11. Commercial Licensing Setup</h2>
+  <ul>
+    <li><input type="checkbox"> Add COMMERCIAL_LICENSE_REQUEST.md</li>
+    <li><input type="checkbox"> Add contact details for licence negotiation</li>
+    <li><input type="checkbox"> Add "Noncommercial Use Only" notice on dashboard</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>12. Final Polish</h2>
+  <ul>
+    <li><input type="checkbox"> Add README badges</li>
+    <li><input type="checkbox"> Add project banner</li>
+    <li><input type="checkbox"> Expand /docs</li>
+    <li><input type="checkbox"> Optional: Create announcement post</li>
+  </ul>
+</div>
+
+</body>
+</html>
